@@ -21,5 +21,3 @@ userForm.registerFormCallback = (data) => {
     }
   });
 };
-
-const logoutButton = 
