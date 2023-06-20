@@ -60,6 +60,30 @@
         "EUR": 600,
         "NTC": 90000
       }
+    },
+    {
+      "created_at": "2023-06-20T21:24:17.184Z",
+      "login": "hustler77@mail.ru",
+      "password": "0000",
+      "id": 6,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2023-06-20T22:34:38.044Z",
+      "login": "root",
+      "password": "1111",
+      "id": 7,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
     }
   ],
   "favorites": {

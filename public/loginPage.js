@@ -4,7 +4,7 @@ userForm.loginFormCallback = (data) => {
   console.log(JSON.stringify(data));
   ApiConnector.login(data, (response) => {
     if (response.success) {
-      location.reload;
+      location.reload();
     } else {
       userForm.setLoginErrorMessage(response.error);
     }
@@ -15,7 +15,7 @@ userForm.registerFormCallback = (data) => {
   console.log(JSON.stringify(data));
   ApiConnector.register(data, (response) => {
     if (response.success) {
-      location.reload;
+      location.reload();
     } else {
       userForm.setRegisterErrorMessage(response.error);
     }
